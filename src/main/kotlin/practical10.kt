@@ -22,7 +22,7 @@ class Car constructor(cmodel: String, oprice: Int, cowner: String, mdrive: Int, 
 
     }
 
-    /*fun getCarInformation() {
+    fun getCarInformation() {
         println("Car's Model : $model")
     }
 
@@ -48,7 +48,7 @@ class Car constructor(cmodel: String, oprice: Int, cowner: String, mdrive: Int, 
         mileDrove()
         getOriginalCarPrice()
         getCurrentCarPrice()
-    }*/
+    }
 
 
 }
