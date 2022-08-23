@@ -1,53 +1,62 @@
-fun main ()
-{
+fun main(){
     fun add(vararg x:Int){
-        var add:Int = x[0]
-        for(i in x[1]..x.size) {
+        var add:Int = 0
+        for(i in x){
             add += i
         }
         var y:String = ""
         for(i in x){
             y += "$i,"
         }
-        println("addition of $y is $add")
+        println("Addition of $y is $add")
     }
 
-    fun sub(vararg x:Int) {
-        var sub: Int = x[0]
-        for (i in x[1]..x.size){
+    fun sub(vararg x:Int){
+        var sub:Int = x[0]
+        var flag=0
+        for(i in x){
+            if(flag==0) {
+                flag = 1
+                continue
+            }
             sub -= i
         }
         var y:String = ""
         for(i in x){
             y += "$i,"
         }
-        println("subtraction of $y is $sub")
+        println("Subtraction of $y is $sub")
     }
 
     fun mul(vararg x:Int){
-        var mul:Int = x[0]
-        for(i in x[1]..x.size) {
+        var mul:Int = 1
+        for(i in x){
             mul *= i
         }
         var y:String = ""
         for(i in x){
             y += "$i,"
         }
-        println("multiplication of $y is $mul")
+        println("Multiplication of $y is $mul")
     }
-    fun div(vararg x:Int){
-        var div:Int = x[0]
-        for(i in x[1]..x.size) {
+
+    fun div(vararg x:Int) {
+        var div:Double = x[0].toDouble()
+        for (i in x) {
+            if(i == x[0]) {
+                continue
+            }
             div /= i
         }
-        var y:String = ""
-        for(i in x){
+        var y: String = ""
+        for (i in x) {
             y += "$i,"
         }
-        println("divison of $y is $div")
+        println("Division of $y is $div")
     }
-    add (1,2,3,4,5,6)
-    sub(30,1,4,5)
-    mul(5,2)
-    div(20,2)
+
+    add(9,8,8,6,5,2)
+    sub(20,1,1,5)
+    mul(4,5,6,1)
+    div(20,4,4)
 }
