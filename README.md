@@ -12,10 +12,10 @@ OUTPUT PRACTICAL4:
 ![4](https://user-images.githubusercontent.com/111679306/186200769-e8fe1beb-13c5-40ea-99e5-33fff19bda7f.png)
 
 OUTPUT PRACTICAL5:
-![Uploading 5.png…]()
+![5](https://user-images.githubusercontent.com/111679306/186434999-b0a42eae-a72b-444a-a006-824cbf5957de.png)
 
 OUTPUT PRACTICAL6:
-![6](https://user-images.githubusercontent.com/111679306/186200942-f7735e4a-7f98-46cb-ba9f-9a0bfbec9bbf.png)
+![6](https://user-images.githubusercontent.com/111679306/186435039-21643fa4-3260-4abd-ac1b-11cd2ab8706d.png)
 
 OUTPUT PRACTICAL7:
 ![U![7](https://user-images.githubusercontent.com/111679306/186200961-eb554d91-cb0a-4e17-8e73-9d502267504a.png)
