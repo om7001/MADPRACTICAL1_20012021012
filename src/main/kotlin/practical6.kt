@@ -13,9 +13,9 @@ fun main(){
 
     fun sub(vararg x:Int){
         var sub:Int = x[0]
-        var flag=0
+        var flag = 0
         for(i in x){
-            if(flag==0) {
+            if (flag == 0){
                 flag = 1
                 continue
             }
@@ -55,8 +55,8 @@ fun main(){
         println("Division of $y is $div")
     }
 
-    add(9,8,8,6,5,2)
+    add(1,1,1,1)
     sub(20,1,1,5)
-    mul(4,5,6,1)
-    div(20,4,4)
+    mul(2,2,2,2)
+    div(20,2,2,2)
 }
